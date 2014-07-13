@@ -1,7 +1,7 @@
 body {
 	background: grey url("texture.png") repeat;
 	text-align: center;
-	font-family: Cambria;
+	font-family: Cambria,Sans Serif;
 }
 
 a {
