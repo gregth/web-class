@@ -1,0 +1,67 @@
+body {
+	background: #96a8c8;
+	font-size: 18px;
+}
+
+#header, #comic, #menu {
+	width: 80%;
+	min-width: 800px;
+	background: white;
+	border: solid 1px black;
+	margin: 5px auto;
+	padding: 20px;
+}
+
+#header {
+	font-family: serif;
+	color: #333;	
+}
+
+#header p {
+	font-variant: small-caps;
+}
+
+#comic {
+	text-align: center;
+}
+
+#menu {
+	background: #eee url( menu.png ) no-repeat bottom right;
+	font-family: arial;
+}
+
+p strong {
+	background: #fc6;
+}
+
+.romance {
+	color: #ac2d2d;
+}
+
+.sarcasm {
+	color: #30ac2d;
+}
+
+.math {
+	color: #2d45ac;
+}
+
+.language {
+	color: #e99613;
+}
+
+#header a {
+	text-decoration: none;
+	border-bottom: dashed 1px;
+}
+
+#menu li {
+	padding:5px;
+	font-size:22px;
+	margin-left: 20px;
+}
+#menu li a {
+	color:black;
+	text-decoration: none;	
+	border-bottom: dashed 1px black;
+}
