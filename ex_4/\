@@ -1,0 +1,7 @@
+<?php
+    $destination = "files";
+    echo "Hello";
+    if ( isset( $_FILES ) ) {
+       echo  $_FILES[ 'up_file' ][ 'name' ];
+    }
+?>

@@ -1,0 +1,38 @@
+body {
+    background: white;
+    font-family: Arial, Cambria;
+    text-align: center;
+    margin: 0;
+    color: rgb(0, 39, 44);
+}
+
+h1  {
+    margin: 0;
+    padding: 30px;
+    color: white; 
+    background: rgb(0, 150, 170);
+}
+
+input[type="file"] {
+    clear: both;
+    display: block;
+    margin: 13px auto;
+    background: white;
+    padding: 12px;
+}
+
+input {
+    box-shadow: 0 0 1px 0 black;
+}
+
+input[type="submit"] {
+    background: white;
+    border: none;
+    width: 260px;
+    padding: 15px 0;
+    font-size: 22px;
+}
+
+ul {
+    list-style-type:none;
+}
